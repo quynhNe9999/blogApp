@@ -1,5 +1,4 @@
 import React from 'react';
-import { Route } from 'react-router'; // eslint-disable-line
 
 import ErrorBoundaryRoutes from 'app/shared/error/error-boundary-routes';
 
@@ -8,10 +7,7 @@ import ErrorBoundaryRoutes from 'app/shared/error/error-boundary-routes';
 export default () => {
   return (
     <div>
-      <ErrorBoundaryRoutes>
-        {/* prettier-ignore */}
-        {/* jhipster-needle-add-route-path - JHipster will add routes here */}
-      </ErrorBoundaryRoutes>
+      <ErrorBoundaryRoutes>{/* jhipster-needle-add-route-path - JHipster will add routes here */}</ErrorBoundaryRoutes>
     </div>
   );
 };
