@@ -1,7 +1,5 @@
 import React from 'react';
 
-import MenuItem from 'app/shared/layout/menus/menu-item'; // eslint-disable-line
-
 const EntitiesMenu = () => {
   return <>{/* jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here */}</>;
 };
